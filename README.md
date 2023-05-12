@@ -11,7 +11,7 @@
 
 - Afianzar los conceptos sobre Orquestación y MLOps.
 - Registro y versionado de modelos de machine learning.
-- Desplieguede modelo entrenado.
+- Despliegue de modelos entrenados.
 
 ## 2. Dependencias
 Para realizar la práctica el alumno deberá tener instalado en su ordenador:
@@ -114,5 +114,7 @@ En el anterior bloque se guardaron los modelos tras el entrenamiento. MLflow per
 python predict.py 1 5 0.5 0.3 10 50 3
 ```
 
-**Tarea 5: Ejecute la misma predicción pero utilizando la segunda versión del modelo. Incluya el resultado de la predicción y la comando que ha utilizado para ejecutarla.**
+**Tarea 5: Ejecute la misma predicción pero utilizando la segunda versión del modelo. Incluya el resultado de la predicción y el comando que ha utilizado para ejecutarla. Incluya una captura con ambas ejecuciones.**
+
+**Tarea 6: El resultado de ambas predicciones es distinto. ¿A qué se puede deber? Razone su respuesta.**
 
