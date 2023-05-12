@@ -102,13 +102,13 @@ En el anterior bloque se guardaron los modelos tras el entrenamiento. MLflow per
 
 - version: versión del modelo que realizará la predicción
 - laboratory_test: nota de laboratorio (número de 0 a 10)
-- first_test: nota del primer test (número 0 a 1)
+- first_test: nota del primer test (número de 0 a 1)
 - second_test: nota del segundo test (número de 0 a 1)
 - days_missing: días que no asistió a clase (entero)
 - hours_studied: horas de estudio (entero)
 - first_exam: (número de 0 a 10)
 
-1. Ejecute la predicción del siguiente alumno para la primera versión del modelo:
+1. Ejecute la predicción del siguiente alumno utilizando la primera versión del modelo:
 
 ```
 python predict.py 1 5 0.5 0.3 10 50 3
